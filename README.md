@@ -44,4 +44,4 @@ mywebhook.rich_format_post(fallback="Full rich format test", text="Full rich for
 
 Thanks to Peter Downs for his awesome tutorial [about how to publish to pypi](http://peterdowns.com/posts/first-time-with-pypi.html).
 
-&copy Carl Cortright 2016
+&copy; Carl Cortright 2016
