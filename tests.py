@@ -23,6 +23,6 @@ class TestSlackWebhook(unittest.TestCase):
 
     def test_link(self):
         self.assertEqual(self.webhook.post("This is to test links: <https://www.google.com|Link to Google>"), 200)
-    
+
 if __name__ == '__main__':
     unittest.main()
