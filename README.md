@@ -2,7 +2,7 @@
 
 > A simple python package for posting messages to slack channels.
 
-### Some Use cases
+### Use cases
 
 Slack webhooks are an easy way to get push notifications on mobile and desktop.
 
@@ -14,7 +14,7 @@ Personally, I am using this package to push notifications about my AI trading al
 
 Install with pip:
 
-`pip install simple-slack-webhook`
+`pip install slackwebhook`
 
 ### Usage
 

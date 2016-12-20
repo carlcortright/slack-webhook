@@ -7,8 +7,8 @@
 ################################################################################
 from distutils.core import setup
 setup(
-  name = 'simple-slack-webhook',
-  packages = ['simple-slack-webhook'],
+  name = 'slackwebhook',
+  packages = ['slackwebhook'],
   version = '0.1',
   description = 'Easy interface for posting to a slack webhook',
   author = 'Carl Cortright',
@@ -19,6 +19,5 @@ setup(
   classifiers = [],
   install_requires=[
         "requests",
-        "unittest",
     ],
 )
