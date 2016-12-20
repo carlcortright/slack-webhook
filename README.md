@@ -20,7 +20,7 @@ Install with pip:
 
 First, [create a slack webhook ](https://my.slack.com/services/new/incoming-webhook/) to the channel you want, and save the url.
 
-To post a simple update to slack using the url you just generated.
+To post a simple update to slack using the url you just generated:
 
 ```python
 import slackwebhook
