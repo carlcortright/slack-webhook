@@ -22,7 +22,7 @@ First, [create a slack webhook ](https://my.slack.com/services/new/incoming-webh
 
 To post a simple update to slack using the url you just generated.
 
-```
+```python
 import slackwebhook
 
 mywebhook = slackwebhook("<my webhook url>")
@@ -32,7 +32,7 @@ mywebhook.post("Testing simple text post")
 
 To post rich-text posts:
 
-```
+```python
 import slackwebhook
 
 mywebhook = slackwebhook("<my webhook url>")
