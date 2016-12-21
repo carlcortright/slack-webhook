@@ -1,0 +1,4 @@
+language: python
+php:
+- 3.5.2
+script: unittest ./slackwebhook/tests.py
