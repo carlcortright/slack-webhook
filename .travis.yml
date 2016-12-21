@@ -1,4 +1,6 @@
 language: python
-php:
-- 3.5.2
-script: unittest ./slackwebhook/tests.py
+python:
+- "3.5"
+install:
+- pip install requests
+script: python ./slackwebhook/tests.py
